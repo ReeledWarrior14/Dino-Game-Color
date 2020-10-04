@@ -136,7 +136,6 @@ function draw() {
     cloudandcacti();
   }
   
-  // dino.debug = true;
   if (gamestate == 'play'){
     dino.overlap(cacti, crash);
   }
@@ -245,9 +244,7 @@ function cloudandcacti(){
       }
       
         
-      // cactus.debug = true;    
       cacti.add(cactus);
-      // cactus.debug = true;    
     }
 }
 
